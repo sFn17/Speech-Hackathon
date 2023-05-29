@@ -25,7 +25,7 @@ def get_answer(question, file_path):
     return "Nu am găsit un răspuns pentru această întrebare."
 
 
-excel_file_path = 'C:\\Users\\rares\\Desktop\\SpeechRecognition\\rasp.xlsx'
+excel_file_path = 'C:\\Users\\rares\\Desktop\\Speech\\rasp.xlsx'
 
 
 wb = openpyxl.load_workbook(excel_file_path)
