@@ -1,7 +1,7 @@
 import speech_recognition as sr
 import openpyxl
 
-
+ff
 def transcribe_speech():
     recognizer = sr.Recognizer()
     with sr.Microphone() as source:
